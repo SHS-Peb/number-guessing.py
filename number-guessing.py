@@ -7,10 +7,10 @@ com = random.choice(comChoice)
 
 def game ():
     num = int(input("Guess a number between 1 and 10:"))
-    print (com)
-    if (num == com):
-        print("You win!")
+    com = random.choice(comChoice)
+    if num == com:
+        print(f'I was thinking of {com}! You Win!')
     else:
-        print("aw shucks you got it wrong")
+        print(f'Aw shucks no. I was thinking of {com}!')
 
 game()
