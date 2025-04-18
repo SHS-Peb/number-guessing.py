@@ -23,4 +23,4 @@ A simple command-line number guessing game written in Python. The game selects a
 3. Navigate to the folder and run:
 
 ```bash
-python guessing_game.py
+python guessing-game.py
